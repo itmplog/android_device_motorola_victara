@@ -1,13 +1,16 @@
 [
   {
+	"remote": "cm"
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
   {
+	"remote": "cm"
     "repository": "android_kernel_motorola_msm8974",
     "target_path": "kernel/motorola/msm8974"
   },
   {
+	"remote": "cm"
     "repository": "android_external_connectivity",
     "target_path": "external/connectivity"
   }
