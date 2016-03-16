@@ -1,10 +1,10 @@
 $(call inherit-product, device/motorola/victara/full_victara.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/aokp/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
